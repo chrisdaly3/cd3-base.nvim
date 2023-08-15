@@ -1,12 +1,12 @@
 return {
   -- add colorscheme
-  { "danilo-augusto/vim-afterglow" },
+  { "ellisonleao/gruvbox.nvim" },
 
   -- Now configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "afterglow",
+      colorscheme = "gruvbox",
     },
   },
 }
