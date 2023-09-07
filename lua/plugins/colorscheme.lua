@@ -1,12 +1,12 @@
 return {
   -- add colorscheme
-  { "ellisonleao/gruvbox.nvim" },
+  { "wadackel/vim-dogrun" },
 
   -- Now configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "dogrun",
     },
   },
 }
