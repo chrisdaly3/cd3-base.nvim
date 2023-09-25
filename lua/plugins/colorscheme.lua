@@ -1,12 +1,12 @@
 return {
   -- add colorscheme
-  { "wadackel/vim-dogrun" },
+  { "rebelot/kanagawa.nvim" },
 
   -- Now configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "dogrun",
+      colorscheme = "kanagawa-dragon",
     },
   },
 }
