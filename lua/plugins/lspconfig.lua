@@ -10,6 +10,8 @@ return {
         solargraph = {},
         rubocop = {},
       },
+      -- disable autoformatting
+      autoformat = false,
     },
   },
 }
